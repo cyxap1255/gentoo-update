@@ -8,4 +8,4 @@
 
 # 5. To use the update just run "sudo update" or "doas update"
 
-if you run the command "sudo ln -s update.sh /usr/bin/update" the updates with the "update" command simply will not work, so use the command "sudo ln -s /PATH/TO/update.sh /usr/bin/update"
+if you run the command "sudo/doas ln -s update.sh /usr/local/bin/update" the updates with the "update" command simply will not work, so use the command "sudo/doas ln -s /PATH/TO/update.sh /usr/local/bin/update" or "sudo/doas ln -s "$(pwd)/update.sh"
