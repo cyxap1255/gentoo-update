@@ -1,5 +1,5 @@
 1. Download this file
 
-2. run ln -s /path/to/update.sh ~/.local/bin/update
+2. Run sudo/doas ln -s /path/to/update.sh /usr/bin/update
 
-3. to use the update just run "update"
+3. To use the update just run "update"
