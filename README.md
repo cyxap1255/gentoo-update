@@ -1,6 +1,6 @@
 # 1. Clone this repo
 
-# 2. Run cd /path/to/repo
+# 2. Run cd /path/to/gentoo-update
 
 # 3. Run chmod +x update.sh
 
